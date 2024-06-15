@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milugo Geofrey Ouma - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -80,7 +81,7 @@
             color: #ddd;
         }
         .about, .contact {
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.5);
             backdrop-filter: blur(70px);
             padding: 20px;
             border-radius: 10px;
@@ -99,16 +100,24 @@
             justify-content: center;
         }
         .skills div {
-            background: #fff;
+            background: rgba(255, 255, 255, 0.5);
             border: 1px solid #ddd;
             border-radius: 5px;
             margin: 5px;
             padding: 10px;
             flex: 1 1 calc(33% - 10px);
             text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .skills div i {
+            font-size: 24px;
+            color: #333;
         }
         .project {
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.5);
             backdrop-filter: blur(70px);
             margin: 20px 0;
             padding: 20px;
@@ -127,7 +136,7 @@
             max-width: 600px;
             margin: 20px auto;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.5);
             backdrop-filter: blur(70px);
             border-radius: 10px;
             border: 1px solid #ddd;
@@ -158,6 +167,7 @@
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
+            font-size: 24px;
         }
         @media (max-width: 768px) {
             .navbar nav {
@@ -208,16 +218,14 @@
             <p>I'm a passionate mathematics and computer science student at Maseno University. My greatest passion underlies in leveraging latest web technology tools, learning and using them to engineer latest AI based softwares that are simplistic for all.</p>
             <p> By leveraging my software engineering experience I continually look for new and better ways to make tech accessible by all.</p>
             <div class="skills">
-                <div>Web Design</div>
-                <div>User Experience</div>
-                <div>Software Engineering</div>
-                <div>Data science</div>
-                <div>Application Interface</div>
-                <div>Mobile User Interfaces</div>
-
-                <div>Assistant Apps</div>
+                <div><i class="fas fa-paint-brush"></i>Web Design</div>
+                <div><i class="fas fa-users"></i>User Experience</div>
+                <div><i class="fas fa-laptop-code"></i>Software Engineering</div>
+                <div><i class="fas fa-database"></i>Data science</div>
+                <div><i class="fas fa-desktop"></i>Application Interface</div>
+                <div><i class="fas fa-mobile-alt"></i>Mobile User Interfaces</div>
+                <div><i class="fas fa-robot"></i>Assistant Apps</div>
             </div>
-            
         </section>
 
         <section id="portfolio" class="portfolio">
@@ -263,10 +271,10 @@
     <footer class="footer">
         <p>Connect with me</p>
         <div class="social-links">
-            <a href="https://github.com/pha12thom" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/geofrey-milugo-msu27345?" target="_blank">LinkedIn</a>
-            <a href="https://www.instagram.com/milugo_g" target="_blank">Instagram</a>
-            <a href="https://twitter.com/milugo_g" target="_blank">X</a>
+            <a href="https://github.com/pha12thom" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/geofrey-milugo-msu27345?" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/milugo_g" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/milugo_g" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
         <p>&copy; 2024 Milugo Geofrey Ouma. All rights reserved.</p>
     </footer>
