@@ -14,6 +14,53 @@
             background: linear-gradient(135deg, #0d0d0d, #1c1c3c);
             color: #ddd;
         }
+          .experience {
+            background: rgba(0, 128, 0, 0.2);
+            /* Green tint for transparency */
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            color: #fff;
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .experience::before {
+            content: "";
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: #339933;
+        }
+        
+        .experience-item {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .experience-item::before {
+            content: "";
+            position: absolute;
+            left: -24px;
+            top: 0;
+            width: 10px;
+            height: 10px;
+            background: #339933;
+            border-radius: 50%;
+            box-shadow: 0 0 0 2px #fff;
+        }
+        
+        .experience h3 {
+            color: #ffcc00;
+            margin-bottom: 5px;
+        }
+        
+        .experience p {
+            margin: 0;
+        }
         
         .navbar {
             display: flex;
